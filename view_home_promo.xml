@@ -6,35 +6,101 @@
     android:orientation="vertical">
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardFerrari"
         style="@style/Card.Clean"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         app:cardBackgroundColor="@android:color/white">
-        <LinearLayout android:padding="@dimen/space_md" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <TextView style="@style/Text.Hl" android:text="Ferrari 458" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-            <TextView style="@style/Text.BodyMuted" android:text="Supercar | V8 Engine" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ferrari" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/space_md">
+                <TextView style="@style/Text.Hl" android:text="Ferrari 458" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView style="@style/Text.BodyMuted" android:text="Supercar | V8 Engine" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLambo"
         style="@style/Card.Clean"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         app:cardBackgroundColor="@android:color/white">
-        <LinearLayout android:padding="@dimen/space_md" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <TextView style="@style/Text.Hl" android:text="Lamborghini Aventador" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-            <TextView style="@style/Text.BodyMuted" android:text="Exotic | V12 Beast" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lambo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/space_md">
+                <TextView style="@style/Text.Hl" android:text="Lamborghini Aventador" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView style="@style/Text.BodyMuted" android:text="Exotic | V12 Beast" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardBMW"
         style="@style/Card.Clean"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         app:cardBackgroundColor="@android:color/white">
-        <LinearLayout android:padding="@dimen/space_md" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <TextView style="@style/Text.Hl" android:text="BMW M4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-            <TextView style="@style/Text.BodyMuted" android:text="Sport Coupe | M Power" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bmw" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/space_md">
+                <TextView style="@style/Text.Hl" android:text="BMW M4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView style="@style/Text.BodyMuted" android:text="Sport Coupe | M Power" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
